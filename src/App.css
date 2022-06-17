@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.button{
+  background: brown;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  font-family: inherit;
+  font-weight: 600;
+  width: 120px;
+  height: 40px;
+}
+
+.auth-error{
+    padding: 10px;
+    padding-bottom: 20px;
+    background: darkred;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+h4{
+  margin: 5px!important;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.inputs{
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.content{
+  display: block;
+}
